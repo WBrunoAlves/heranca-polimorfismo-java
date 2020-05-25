@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/wds/java-u/atividades/6-heranca-polimorfismo/heranca/.metadata/.plugins/org.eclipse.jdt.core
+2261103041.index
+750108747.index

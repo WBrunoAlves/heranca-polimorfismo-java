@@ -1,0 +1,42 @@
+package entities;
+
+public class PJuridica extends Pagador {
+	
+	private Integer numeroFuncionarios;
+	
+	public PJuridica(String nome, Double rendaAnual, Integer numeroFuncionarios) {
+		super(nome, rendaAnual);
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+
+
+	public Integer getNumeroFuncionarios() {
+		return numeroFuncionarios;
+	}
+
+	public void setNumeroFuncionarios(Integer numeroFuncionarios) {
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+
+	
+	/*
+	 * Pessoa jurídica: pessoas jurídicas pagam 16% de imposto. Porém, se a empresa possuir mais de 10
+		funcionários, ela paga 14% de imposto.
+		Exemplo: uma empresa cuja renda foi 400000.00 e possui 25 funcionários, o imposto fica:
+		400000 * 14% = 56000.00
+	 * */
+	
+	
+	@Override
+	public double tax() {
+		
+	      if (numeroFuncionarios > 10) {
+	    	  	    	  
+	    	return (getRendaAnual() * 0.14) +  getRendaAnual();
+		} else {
+	
+			return (getRendaAnual() * 0.10) +  getRendaAnual();
+		}
+	}
+
+}

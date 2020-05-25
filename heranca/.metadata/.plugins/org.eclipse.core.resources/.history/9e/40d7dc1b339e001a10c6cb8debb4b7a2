@@ -1,0 +1,31 @@
+package entities;
+
+
+
+public class PFisica extends Pagador{
+	
+	private Double valorGastoSaude;
+
+	public PFisica(){
+	super();
+	}
+	
+	
+	
+	
+	
+	
+	public double gastosSaude(){
+		return valorGastoSaude;
+	}
+	
+	@Override
+	public double tax() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+
+}

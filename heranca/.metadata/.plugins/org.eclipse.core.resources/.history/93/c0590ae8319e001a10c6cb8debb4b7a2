@@ -1,0 +1,25 @@
+package entities;
+
+public class PFisica extends Pagador{
+
+	public public PFisica(){
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public double tax() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+
+}

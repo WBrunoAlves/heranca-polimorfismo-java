@@ -1,0 +1,9 @@
+package entities;
+
+public class PJuridica {
+	public PJuridica(){
+	super();
+	}
+	
+
+}

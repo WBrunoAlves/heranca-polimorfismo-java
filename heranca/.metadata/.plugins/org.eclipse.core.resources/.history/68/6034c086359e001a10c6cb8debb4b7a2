@@ -1,0 +1,32 @@
+package entities;
+
+public class PJuridica extends Pagador {
+	
+	private Integer numeroFuncionarios;
+	
+	public PJuridica(){
+	super();
+	}
+
+	public PJuridica(String nome, Double rendaAnual, Integer numeroFuncionarios) {
+		super(nome, rendaAnual);
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+
+
+
+
+
+
+
+
+
+
+	@Override
+	public double tax() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

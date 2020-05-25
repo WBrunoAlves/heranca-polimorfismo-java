@@ -1,0 +1,10 @@
+package entities;
+
+public class PJuridica extends Pagador {
+	
+	public PJuridica(){
+	super();
+	}
+	
+
+}

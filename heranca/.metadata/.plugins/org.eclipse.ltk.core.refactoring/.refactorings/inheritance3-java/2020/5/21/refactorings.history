@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;&apos; to &apos;entities.BusinessAccount.withdraw(...)&apos;&#x0A;- Original project: &apos;inheritance3-java&apos;&#x0A;- Destination element: &apos;entities.BusinessAccount.withdraw(...)&apos;&#x0A;- Original element: &apos;entities.BusinessAccount.withdraw(...)&apos;" description="Copy method" destination="/src&lt;entities{BusinessAccount.java[BusinessAccount~withdraw~D" element1="/src&lt;entities{BusinessAccount.java[BusinessAccount~withdraw~D" flags="589830" id="org.eclipse.jdt.ui.copy" members="1" policy="org.eclipse.jdt.ui.copyMembers" stamp="1590102111896" version="1.0"/>
+</session>

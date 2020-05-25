@@ -1,0 +1,25 @@
+package entities;
+
+/*CLASSE PAGADOR É ABSTRATA (NÃO PODE SER INSTANCIADA)-
+ *  É SUPERCLASSE */
+public abstract class Pagador {
+	
+	private String nome;
+	private Double rendaAnual;
+	
+	
+	public Pagador(String nome, Double rendaAnual) {
+		this.nome = nome;
+		this.rendaAnual = rendaAnual;
+	}
+
+
+
+
+
+
+	/*Metodo abstrato -
+	 * ele é sobrescrito nas outras suclasses */
+	public abstract double tax();
+		
+}
